@@ -3,13 +3,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+ 
 }
 main{
     display: flex;
     Width:731px;
     Height:281px;
-    margin: 0 auto;
-    margin-top: 200;
     background-color: white;
    
     
@@ -40,14 +39,14 @@ h1 {
 main{
     display: flex;
     flex-direction: row-reverse;
-    border-radius: 15px;
+    border-radius: 15px
 }
 
 img{
     
     width: 285px;
     height: 281px;
-    border-radius: 15px 0px 0px px;
+    border-radius: 15px 0px 0px 15px;
 }
 .texto{
     Width: 355px;
@@ -64,7 +63,7 @@ img{
     
 }
 .m{
-    margin: 20 ;
+    margin: 20px ;
     font-weight: bold;
     font-size: 13px;
 }
@@ -74,7 +73,7 @@ img{
 }
 
 .fecha h3{
-    margin:-20 62 60 ;
+    margin :-20 62 60 ;
     font-size: 13px;
     font-family: "Manrope",sans-serif;
     font-weight: normal;
@@ -86,11 +85,72 @@ img{
     height: 29px ;
     margin: -90 340 0 ; 
 }
+
+.boton-select{
+    width: 29px;
+    height: 29px ;
+    margin: -90 340 0 ; 
+}
+
+.redes{
+    height: 56px;
+    width: 250px;
+    background-color: #49556B;
+    border-radius: 5px;
+    margin-left: -180px;
+    margin-bottom: -40px;
+    
+}
+
+.compartir{
+    font-size: 15px;
+    margin: 0 50 0 60;
+    
+
+}
+
+.redes{ 
+    color:white;
+    font-weight:lighter;
+    font-size: 10px;
+    display: none;
+}
+
+
+.boton-select{
+    display:none;
+}
+.compa:hover .boton-select{
+    display: block;
+}
+.icon{
+    margin: 0 200 0;
+}
+
+.fa-twitter{
+    color:white;
+    margin-right: 7px;
+  
+}
+.fa-facebook-square{
+    color: white;
+    margin-right: 7px;
+    margin: -40;
+ 
+}
+
+.fa-pinterest-square{
+    color: white;
+    margin-left: 7px;
+    
+}
+
 @media screen and (max-width: 700px) {
     body{
 
         Width:  365px;
         Height: 667px;
+        margin: 50px;
         
     }
 
@@ -134,11 +194,6 @@ img{
        font-size: 15px;
        margin: 37px 20 0 0;
    }
-  
-
-
-
-
 
 }
 
