@@ -112,26 +112,15 @@ img{
 
 }
 
-.redes { 
-    color:gray;
-    font-weight:lighter;
-    font-size: 10px;
-    display: block;
-    
-    
-    
-
-    
-}
 
 
-.redes{
+.barra{
     display: none;
-    margin: -125 40 0 250;
+    
     
 }
 
-.compa:hover .redes{
+.compa:hover .barra{
     display: block;
 }
 
@@ -142,40 +131,29 @@ img{
 .compa:hover .boton-select{
     display: block;
 }
-.icon{
-    margin: 0 200 0;
-}
+.barra{
+    Width:250px;
+    Height:67.15px;
+    position: relative;
+    top: -100px;
+    left: 230px;
 
-.fa-twitter{
-    color:white;
-    margin-right: 7px;
-    
-  
 }
-.fa-facebook-square{
-    color: white;
-    margin-right: 7px;
-    margin: -40;
- 
-}
-
-.fa-pinterest-square{
-    color: white;
-    margin-left: 7px;
-    
-}
-
+ .movil{
+     display: none;
+ }
 
 @media screen and (max-width: 700px) {
     body{
 
         Width:  365px;
         Height: 667px;
-        margin: 50px;
+        margin: 30px;
         
     }
 
     main{
+       
         width: 329px;
         height: 312px;
         flex-direction:column-reverse;
@@ -220,11 +198,37 @@ img{
        margin: 37px 20 0 0;
    }
 
-   .redes{
-       margin: 20 20 20 20;
-   }
+   
+   .movil{
+    display: none;
+    position: relative;
+    right: 26px;
+    top: -50px;
+    
+}  
 
+ .barra{
+    display: none;
+    
+    
 }
+
+.compa:hover .movil{
+    display: block;
+}
+
+
+.boton-select{
+    display:none;
+}
+.compa:hover .barra{
+    display: none;
+}
+
+ }
+
+
+ 
 
 
 
