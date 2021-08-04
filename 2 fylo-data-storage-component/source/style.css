@@ -1,0 +1,103 @@
+
+    
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+body{
+width: 1440px;
+height: 625px;
+background-color: #0C122C;
+background-image: url(./images/OLAS\ FONDO.svg);
+background-repeat: repeat-x;
+background-position: bottom left ;
+font-family: "Raleway";
+
+}
+
+
+.contenedor-fly{
+
+    width:349px;
+    height: 200px;
+    background-color: #1E2C69;
+    border-radius: 8px 100px 8px 8px;
+    position: relative;
+    top: 120px;
+    left: 289px;
+    
+    
+}
+.iconos{
+    position: relative;
+    bottom: -80px;
+    left: 35px;
+    
+}
+
+.doc{
+    position: relative;
+    top: -2px;
+}
+
+.folder{
+    position: relative;
+    right: -50x;
+    top: -2px;
+    left: 10px;
+    
+}
+.upload{
+    position: relative;
+    right: -120px;
+    top: -2px;
+    left: 20px;
+}
+.titulo{
+    position: relative;
+    bottom: -39px;
+    left: 35px;
+}
+
+.gb{
+    background-color: #1E2C69;
+    width: 539px;
+    height: 153px;
+    position: relative;
+    top: -43px;
+    left: 670px;
+}
+.text{
+    position: relative;
+    font-weight:lighter;
+    font-size: 15px;
+    color: white;
+    bottom: -40px;
+    right: -40px;
+}
+.barra{
+    position: relative;
+    width: 456px;
+   
+}
+.barra{
+    position: relative;
+    background-color: #0c122c;
+    width: 456px;
+    height: 20px;
+    left: 40px;
+    top: 40px;
+    border-radius: 10px;
+   
+}
+ .TGB{
+     position: relative;
+    top: -105px;
+     left: 714px;
+     font-size: 8px;
+     color: white;
+
+ }
+
+
+
