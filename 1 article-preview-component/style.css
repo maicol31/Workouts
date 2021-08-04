@@ -102,18 +102,37 @@ img{
     
 }
 
+
+
 .compartir{
     font-size: 15px;
-    margin: 0 50 0 60;
+    margin: 25 -10 0 60;
+    
     
 
 }
 
-.redes{ 
-    color:white;
+.redes { 
+    color:gray;
     font-weight:lighter;
     font-size: 10px;
+    display: block;
+    
+    
+    
+
+    
+}
+
+
+.redes{
     display: none;
+    margin: -125 40 0 250;
+    
+}
+
+.compa:hover .redes{
+    display: block;
 }
 
 
@@ -130,6 +149,7 @@ img{
 .fa-twitter{
     color:white;
     margin-right: 7px;
+    
   
 }
 .fa-facebook-square{
@@ -144,6 +164,7 @@ img{
     margin-left: 7px;
     
 }
+
 
 @media screen and (max-width: 700px) {
     body{
@@ -185,6 +206,10 @@ img{
         flex-direction: row;
        
    }
+   .boton-select{
+    margin: -90 0 -60 250;
+    flex-direction: row;
+   }
 
    h2{
     font-size: 15px;
@@ -193,6 +218,10 @@ img{
    h1{
        font-size: 15px;
        margin: 37px 20 0 0;
+   }
+
+   .redes{
+       margin: 20 20 20 20;
    }
 
 }
