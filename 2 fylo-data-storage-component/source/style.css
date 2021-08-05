@@ -111,6 +111,30 @@ main{
     bottom: 1px;
     right: 2px;
 }
+
+.mensaje{
+    background-color: white;
+    width: 150px;
+    height: 65px;
+    border-radius: 20px;
+    font-size: 20px;
+    position: absolute;
+    left: 1020px;
+    top: 150px;
+}
+.left{
+    font-size: 10px;
+    position:absolute;
+    bottom: 20px;
+    left: 80px;
+    color: grey;
+    font-weight: bold;
+}
+.num {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}
 @keyframes desplazar {
     from{
          width: 4%;
@@ -208,7 +232,7 @@ aside{
     body{
         background-repeat: no-repeat;
         background-image: url(./images/bg-mobile.png);
-        transition: 1s;
+        transition: 3s;
         position: relative;
         
         
@@ -255,8 +279,30 @@ aside{
         top: 60px;
         left: 50px;
     }
-
-  
+    .mensaje{
+        background-color: white;
+        width: 150px;
+        height: 65px;
+        border-radius: 20px;
+        font-size: 20px;
+        position: relative;
+        left: 95px;
+        top: 35px;
+        right: -40px;
+    }
+    .left{
+        font-size: 10px;
+        position:absolute;
+        bottom: 20px;
+        left: 80px;
+        color: grey;
+        font-weight: bold;
+    }
+    .num {
+        position: absolute;
+        top: -20px;
+        left: 10px;
+    }
+}
 
     
-
