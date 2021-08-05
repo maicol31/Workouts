@@ -12,7 +12,15 @@ background-image: url(./images/OLAS\ FONDO.svg);
 background-repeat: repeat-x;
 background-position: bottom left ;
 font-family: "Raleway";
+justify-content: center;
+align-items: center;
+transition: 1s;
 
+
+
+}
+main{
+    width: 40px;
 }
 
 
@@ -74,12 +82,9 @@ font-family: "Raleway";
     color: white;
     bottom: -40px;
     right: -40px;
+    
 }
-.barra{
-    position: relative;
-    width: 456px;
-   
-}
+
 .barra{
     position: relative;
     background-color: #0c122c;
@@ -88,8 +93,34 @@ font-family: "Raleway";
     left: 40px;
     top: 40px;
     border-radius: 10px;
-   
 }
+.progresoBarra{
+    width: 80%;
+    height: 19px;
+    background-image: linear-gradient(45deg, #f2a49e, #fb4d92);
+    border-radius: 50px;
+    position: relative;
+    animation: desplazar 10s;
+}
+.circulo{
+    background-color: white;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1px;
+    right: 2px;
+}
+@keyframes desplazar {
+    from{
+         width: 4%;
+    }
+    to{
+        width: 80%;
+    }
+    
+}
+
  .TGB{
      position: relative;
     top: -105px;
@@ -104,18 +135,128 @@ font-family: "Raleway";
      left: 1114px;
      font-size: 12px;
      color: white;
+     width: 60px;
 }
 .docA{
 
-position: relative;
-left: -100px;
-top: -1px;
+position: absolute;
+left: 1px;
+top: -2px;
+bottom: 30px;
 
 }
 
 .docA{
     display: none;
 }
+.hoja{
+    width: 40px;
+}
 .hoja:hover .docA{
     display: block;
 }
+
+aside{
+    width: 40px;
+}
+
+.carpeta{
+    width: 40px;
+}
+.derecha{
+    width: 40px;
+}
+.folder{
+    left: 65px;
+    top: -50px;
+}
+.folderA{
+    position: absolute;
+    left: 65px;
+    top: -2px;
+}
+.folderA{
+    display: none;
+}
+.carpeta:hover .folderA{
+    display: block;
+}
+
+.upload{
+    position: absolute;
+    left: 130px;
+  
+}    
+
+.uploadA{
+    position: absolute;
+    top: -2px;
+    left: 130px;
+}
+
+.uploadA{
+    display: none;
+}
+
+.flecha:hover .uploadA{
+    display: block;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    body{
+        background-repeat: no-repeat;
+        background-image: url(./images/bg-mobile.png);
+        transition: 1s;
+        position: relative;
+        
+        
+    }
+
+    .contenedor-fly{
+        width: 324px;
+        height: 203px;
+        top: 125px;
+        left: 20px;
+        
+    }
+
+    .gb{
+        width: 324px;
+        height: 160px;
+        left: 18px;
+        top: 130px;
+        border-radius: 20px;
+    }
+
+    .barra{
+        width: 270px;
+        height: 19px;
+        position: absolute;
+        left: 20px;
+        top: 70px;
+    }
+    .img{
+        display: none !important;
+    }
+
+    .MIL{
+        position: relative;
+        top: 35px;
+         left: 250px;
+         font-size: 12px;
+         color: white;
+         width: 60px;
+       }
+
+       .TGB{
+        position: relative;
+        top: 60px;
+        left: 50px;
+    }
+
+  
+
+    
+
