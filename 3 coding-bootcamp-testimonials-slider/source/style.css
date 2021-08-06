@@ -1,0 +1,141 @@
+body{
+    
+    height: 100vh;
+    background-color: white;
+    font-family: "inter";
+    
+}
+.img{
+    width: 540px;
+    height: 540px;
+    position: absolute;
+    right: 90px;
+    top: 110px;
+    
+    
+}
+
+.morado{
+    position: absolute;
+    width: 697px;
+    height: 657px;
+    right: -1px;
+    z-index: -1;
+    bottom: -90px;
+
+}
+.curva{
+    position: absolute;
+    top: 665px;
+    left: -10px;
+}
+
+.texto{
+    position: absolute;
+    width: 650px;
+    height: 295px;
+    font-size: 32px;
+    right: 550px;
+    bottom: 40px;
+    
+}
+.comillas{
+    position: absolute;
+    right: 983px;
+    bottom: 300px;
+}
+.tanya{
+    position: absolute;
+    font-size: 21px;
+    bottom: 80px;
+    left: 150px;
+    font-weight: bold;
+}
+.gris{
+    position: absolute;
+    color: grey;
+    bottom: 80px;
+    left: 300px;
+    font-size: 21px;
+}
+
+.boton{
+    position: absolute;
+   right: 400px;
+   bottom: -125px;
+}
+@media screen and (max-width: 1000px){
+
+    body{
+        width: 375px;
+        height: 667px;
+        background-color: white;
+        
+    }
+
+    .img{
+        position: absolute;
+        width: 253px;
+        height: 253px;
+        left: 70px;
+        top: 60px
+    }
+
+    .morado{
+        position: absolute;
+        width: 353px;
+        height: 307;
+        top: 30px;
+        left: 10px;
+    }
+    .texto{
+        position:relative;
+        width: 349px;
+        height: 238;
+        font-size: 19px;
+        right: 0px;
+        bottom: -370px;
+        margin: auto;
+        color: #5B5A60;
+        text-align: center;
+
+    }
+    .comillas{
+        position: absolute;
+        top: 350px;
+        left: 160px;
+        bottom:-40px;
+        width: 59px;
+        height: 48px;
+    }
+    .curva{
+        position: absolute;
+        width: 293px;
+        height: 70,95px;
+        top: 615px;
+        left: 2px;
+    }
+
+    .tanya{
+        position: absolute;
+        font-size: 15px;
+        bottom: 50px;
+    }
+
+    .gris{
+        position: absolute;
+        font-size: 14px;
+        text-align: center;
+        bottom: 30px;
+        left: 155px;
+    }
+    .boton{
+        position: absolute;
+        right: 180px;
+        top: 250px;
+    }
+
+    
+
+    }
+
