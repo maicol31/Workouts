@@ -1,0 +1,260 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 1440px;
+    height: 920px;
+    background-color: #FAFAFA;
+}
+.recuadro1{
+    position: absolute;
+    width: 344px;
+    height: 250px;
+    background-color: white;
+    box-shadow:0px 5px #EC5355 inset;
+    top: 312px;
+    left: 546px;  
+}
+.recuadro2{
+    position: absolute;
+    width: 344px;
+    height: 250px;
+    background-color: white;
+    box-shadow:0px 5px #43D3D3 inset;
+    left: 167px;
+    top: 452px;
+  
+}
+.recuadro3{
+    position: absolute;
+    width: 344px;
+    height: 250px;
+    background-color: white;
+    box-shadow:0px 5px #529EF1 inset;
+    left: 920px;
+    top: 452px;
+}
+
+.recuadro4{
+    position: absolute;
+    width: 344px;
+    height: 250px;
+    background-color: white;
+    box-shadow:0px 5px #F9AE4A inset;
+    left: 545px;
+    top: 596px;
+ 
+} 
+
+
+.text1{
+    position: absolute;
+    color: 86858D;
+    font-size: 36px;
+    top: 50px;
+    left: 490px;
+    font-weight:lighter;
+}
+.text2{
+    position: absolute;
+    color: #565769;
+    font-size: 36px;
+    top: 100px ;
+    left: 500px;
+    font-weight: bold;
+}
+.text3{
+    position: absolute;
+    font-size: 15px;
+    color: #A6A6A8;
+    font-weight: 100;
+    text-align: center;
+    width: 536px;
+    height: 70px;
+    top: 180px;
+    left: 450px ;
+
+}
+.builder{
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    
+}
+.teamb{
+    position: absolute;
+    color: #4F515D;
+    font-weight: bold;
+    font-size: 20px;
+    top: 10px;
+    left: 20px;
+
+}
+.scans{
+    position: absolute;
+    color: #B5B6BA;
+    font-weight: lighter;
+    font-size: 13px;
+    width: 273px;
+    height: 49px;
+    top: 40px;
+    left: 20px;
+    line-height: 25px;
+}
+.supervisor{
+    position: absolute;
+    left: 250px;
+    top: 150px;
+}
+.super{
+    position: absolute;
+    color: #4F515D;
+    font-weight: bold;
+    font-size: 20px;
+    top: 10px;
+    left: 20px;
+}
+.monitors{
+    position: absolute;
+    color: #B5B6BA;
+    font-weight: lighter;
+    font-size: 13px;
+    width: 273px;
+    height: 49px;
+    top: 40px;
+    left: 20px;
+    line-height: 25px;
+    
+}
+.calculator{
+    position: absolute;
+    left: 250px;
+    top: 150px;
+}
+.calcu{
+    position: absolute;
+    color: #4F515D;
+    font-weight: bold;
+    font-size: 20px;
+    top: -15px;
+    left: 20px;
+}
+.usedata{
+    position: absolute;
+    color: #B5B6BA;
+    font-weight: lighter;
+    font-size: 13px;
+    width: 273px;
+    height: 49px;
+    top: 60px;
+    left: 20px;
+    line-height: 25px;
+}
+.karma{
+    position: absolute;
+    left: 250px;
+    top: 150px;
+}
+.kar{
+    position: absolute;
+    color: #4F515D;
+    font-weight: bold;
+    font-size: 20px;
+    top: 15px;
+    left: 20px;
+}
+.regularly{
+    position: absolute;
+    color: #B5B6BA;
+    font-weight: lighter;
+    font-size: 13px;
+    width: 273px;
+    height: 49px;
+    top: 40px;
+    left: 20px;
+    line-height: 25px;
+
+}
+@media screen and (max-width: 1000px){
+    body{
+        width: 375px;
+        height: 1360px;
+        
+    }
+    .text1{
+        position: absolute;
+        font-size: 24px;
+        top: 91px;
+        left: 40px;
+    }
+    .text2{
+        position: absolute;
+        font-size: 24px;
+        top: 130px;
+        left: 40px;
+
+    }
+    .text3{
+        position: absolute;
+        width: 300px;
+        height: 70px;
+        font-size: 15px;
+        top: 180px;
+        left: 40px;
+        text-align:center;
+        color: #A6A6A8;
+
+    }
+    .recuadro2{
+        position: absolute;
+        width: 314px;
+        height: 222px;
+        left: 40px;
+        top: 322px;
+    }
+    .supervisor{
+        position: absolute;
+        left: 220px;
+        top: 135px;
+    }
+    .recuadro1{
+        position: absolute;
+        width: 314px;
+        height: 222px;
+        left: 40px;
+        top: 568px;
+
+    }
+    .builder{
+        position: absolute;
+        left: 220px;
+        top: 135px;
+    }
+    .recuadro4{
+        position: absolute;
+        width: 314px;
+        height: 222px;
+        left: 40px;
+        top: 814px;
+    }
+    .karma{
+        position: absolute;
+        left: 220px;
+        top: 135px;
+    }
+    .recuadro3{
+        position: absolute;
+        width: 314px;
+        height: 222px;
+        left: 40px;
+        top: 1060px;
+    }
+    .calculator{
+        position: absolute;
+        left: 220px;
+        top: 135px;
+        
+
+    }
+}
+
