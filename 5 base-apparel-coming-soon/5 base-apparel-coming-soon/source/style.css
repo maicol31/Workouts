@@ -1,0 +1,230 @@
+body{
+    width: 1440px; 
+    background-color: #FFF9F9;
+}
+.imge{
+    position: relative;
+    right: -720px;
+    top: 0px;   
+    height: 800px;
+    width: 610px;
+}
+.movil{
+    display: none;
+}
+.fp{
+position: absolute;
+width: 417px;
+height: 423px;
+bottom: -212px;
+right: 626px;
+}
+.fg{
+    position: absolute;
+    top: 0px;  
+}
+.logo{
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+    top: 66px;
+    left: 166px;
+}
+.textos{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    font-size: 64px;
+    left: 148px;
+    top: 170px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 60px;
+}
+.were{
+    color: #7a6b6d;
+    font-weight: 200;
+}
+.coming{
+    position: absolute;
+    top: 66px ;
+    font-weight: bold;
+}
+.hello{
+    position: absolute;
+    font-size: 16px;
+    line-height: 30px;
+    color: #D6BEBE;
+    top: 260px;
+    font-weight:normal;
+
+}
+.email{
+    position: absolute;
+    width: 404px;
+    height: 55px;
+    border-radius: 50px;
+    bottom: -30px;
+    left: 150px;
+    background-color: transparent;
+    border: solid #D9CACD;
+    outline: none;
+}
+section{
+    width: 0px;
+    height:0px;
+}
+.error{
+    position: absolute;
+    bottom: -15px;
+    left: 430px;
+    display: none;
+}
+ ::placeholder{
+    position: absolute;
+    color: #E0D0D1;
+    bottom: 15px; 
+    left: 30px;
+    font-size: 16px;
+}
+:invalid{
+    border:solid red;
+}
+.acti{
+    display: none;
+    z-index: 2;
+    
+}
+.botones:hover .error{
+    display: block;
+}
+.botones:hover .acti{
+    display: block;
+}
+.acti{
+    position: absolute;
+    top: 575px;
+    left: 460px;
+}
+.inac{
+    position: absolute;
+    top: 583px;
+    left: 460px;
+}
+.textalert{
+    position: absolute;
+    color: #C8837E;
+    font-size: 13px;
+    top: 640px;
+    left: 160px ;
+    display: none;
+}
+.botones:hover .textalert{
+    display: block;
+}
+.flecha{
+    position: absolute;
+    top: 600px;
+    left: 520px;
+    z-index: 2;
+}
+@media screen and (max-width: 1100px){
+    body{
+        position: absolute;
+        width: 375px;
+        height: 800px;
+        transform: scale(0.9);
+        transition: all 1s;
+        margin-left: 50%;
+        margin-top: -20px;
+        background-color: white;
+    }
+    main{
+        background-color: #FFF9F9;
+        width: 375px;
+        height: 800px;
+    }
+    .foto{
+        display: none;
+    }
+    .fp{
+        display: none;
+    }
+    .fg{
+        display: none;
+    }
+    .movil{
+        position: absolute;
+        display: block;
+        top: 84px;
+    }
+    .logo{
+        position: absolute;
+        width: 158px;
+        height: 33px;
+        top: 33px;
+        left: 19px;
+    }
+    .were{
+        position: absolute;
+        font-size:36px;
+        top: 200px;
+        left: -50px;
+    }
+    .coming{
+        position: absolute;
+        font-size: 40px;
+        top: 240px;
+        left: -70px;
+        width: 250px;
+        height: 80px;
+        text-align: center;
+    }
+    .hello{
+        position: absolute;
+        top: 400px;
+        font-size: 14px;
+        width: 300px;
+        text-align: center;
+        left: -110px;
+        line-height: 20px;
+    }
+    .email{
+        position: absolute;
+        width: 279px;
+        height: 46px;
+        bottom: 70px;
+        left: 40px;
+    }
+.acti{
+    position: absolute;
+    left: 240px;
+    top: 670px;
+    border-radius: 50px;
+}
+.inac{
+    position: absolute;
+    left: 240px;
+    top: 677px;
+    border-radius: 50px;
+}
+.error{
+    position: absolute;
+    top: 695px;
+    left: 220px;
+}
+.textalert{
+    position: absolute;
+    top: 730px;
+    left: 60px;
+}
+.flecha{
+    position: absolute;
+    top:690px;
+    left: 300px;
+}
+::placeholder{
+    position: absolute;
+    top: 11px;
+}
+   
+}
