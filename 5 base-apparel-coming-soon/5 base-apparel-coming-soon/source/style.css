@@ -127,7 +127,7 @@ section{
     left: 520px;
     z-index: 2;
 }
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 900px){
     body{
         position: absolute;
         width: 375px;
@@ -225,6 +225,5 @@ section{
 ::placeholder{
     position: absolute;
     top: 11px;
-}
-   
+} 
 }
