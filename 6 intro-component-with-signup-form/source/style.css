@@ -114,7 +114,6 @@ p red{
         display: flex;
        align-items: center;
        align-items: center;
-     
     }
     main{
         display: flex;
@@ -147,6 +146,7 @@ p red{
     }
     .ab{
         width: 375px;
+        margin-top: 20px;
     }
     .morado{
         width: 327px;

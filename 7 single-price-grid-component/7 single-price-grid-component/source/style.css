@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    background-color: #E6EFF6;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction:column;
+    width: 630px;
+    height: 475px;
+    border: solid red;
+    font-family: 'Karla', sans-serif;
+}
+.blanco{
+    width: 626px;
+    height: 218px;
+    background-color: white;
+    line-height: 30px;
+}
+.join{
+    width: 590px;
+    height: 75px;
+}
+.join p{
+    font-size: 24px;
+    color:#38B3B0;
+    margin: 0;
+    font-weight: 900;
+    padding-top: 40px;
+}
+.day{
+    width: 590px;
+    height: 36px;
+    padding-top: 19px; 
+}
+.day p{
+    font-size: 18px;
+    color:#C0D949;
+    font-weight: 400;
+    margin: 0;
+}
+.gayn{
+    width: 590px;
+    height: 80px;
+}
+.gayn p{
+    font-size: 15px;
+    color: #BABDC6;
+    margin: 0;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.margenes{
+    margin-left: 30px;
+}
+.izquierda{
+    width: 315px;
+    height: 256px;
+    border: solid green;
+}
+.derecha{
+    width: 315px;
+    height: 256px;
+    border: solid green;
+}
