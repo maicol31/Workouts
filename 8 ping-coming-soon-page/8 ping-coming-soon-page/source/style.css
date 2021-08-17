@@ -1,0 +1,160 @@
+body{
+    font-family: "Libre Franklin";
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 1024px;
+    background-color:white;
+}
+.ping{
+    padding-bottom:10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 1440px;
+    height: 145px;
+}
+.we-are{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 132px;
+}
+.we{
+    font-size: 55px;
+    margin: 0px;
+    color: #969696;
+    font-weight: lighter;
+}
+.sub{
+    line-height: 50px;
+    margin: 0px;
+    font-size: 21px;
+}
+tx{
+    font-weight: 900;
+    color: black;
+}
+.barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 1440px;
+    height: 93px;
+}
+.bar{
+    width: 420px;
+    height: 54px;
+    border-radius: 50px;
+    outline: none;
+    border-color: #BEBDE6;
+}
+button{
+    width: 197px;
+    height: 54px;
+    background-color: #496FF4;
+    border-radius: 50px;
+    margin-left: 22px;
+    border:none;
+    color: white;
+    font-weight: bold;
+}
+::placeholder{
+    font-size: 16px;
+    padding-left: 20px;
+    color: #999999;
+    font-weight: lighter;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 522px;
+}
+.img{
+    width: 668px;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1440px;
+    height: 66px;
+}
+.ico{
+    width: 30px;
+    height: 30px;
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #999999;
+    font-size: 15px;
+}
+:invalid{
+    border-color: red;
+}
+@media screen and (max-width: 1100px){
+    body{
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 750px;
+        height: 1624px;
+    }
+    .ping{
+        width: 755px;
+        height: 249px;
+    }
+    .we-are{
+        width: 750px;
+        height: 191px;
+    }
+    .we{
+        font-size: 48px;
+    }
+    .sub{
+        font-size: 26px;
+        margin-top: 30px;
+    }.barra{
+        display: flex;
+        justify-content: none;
+        align-items: none;
+        flex-direction: column;
+        width: 750px;
+        height: 200px;
+    }
+    button{
+        width: 420px;
+        height: 54px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .imagen{
+        width: 750px;
+        height: 575px;
+    }
+    .icon{
+        width: 750px;
+        height: 239px;
+    }
+    .ico{
+        margin-top: 150px;
+        width: 58px;
+        height: 58px;
+    }
+    .copy{
+        width: 750px;
+        height: 124px;
+    }
+}
