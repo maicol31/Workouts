@@ -1,0 +1,235 @@
+body{
+
+}
+main{
+    width: 1440px;
+    height: 3186px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 694px;
+    border: solid red;
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: #EDFBFE;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 122px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 720px;
+    height: 122px;
+}
+.log{
+    width: 200px;
+    height: 32px;
+    padding-left: 80px;
+}
+.try{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 720px;
+    height: 122px;
+}
+button{
+    margin-right: 80px;
+    width: 200px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.158);
+    font-family: 'Poppins', sans-serif;
+}
+.contenedorTI{
+    display: flex;
+    flex-direction: row;
+    width: 1272px;
+    height: 482px;
+}
+.izquierda0{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    width: 592px;
+    height: 482px;
+}
+.derecha0 img{
+    width: 680px;
+    height: 482px;
+}
+.build{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+.huddle{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    width: 500px;
+}
+.get{
+    width: 280px;
+    height: 56px;
+    color: white;
+    background-color: #FE52C0;
+}.espacio{
+    width: 1440px;
+    height: 172px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    height: 1416px;
+    
+}
+.medidas{
+    width: 1277px;
+    height: 448px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}.card{
+    display: flex;
+    flex-direction:row;
+}
+.md1{
+    width: 633px;
+    height: 443px;
+}.foto img{
+    width: 409px;
+    height: 330px;
+}
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 160px;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.contenido{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    width: 470px;
+    font-weight: 900;
+}.espacio2{
+    width: 1440px;
+    height: 339px;
+}
+.flotante{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 801px;
+    height:309px ;
+    position: absolute;
+    top: 2400px;
+    left: 280px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.466) 0px 2px 8px 0px;
+    border-radius: 10px;
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+}
+.get2{
+    width: 400px;
+    height:80px;
+    background-color: #FE52C0;
+    color: white;
+}
+.oscuro{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height:560px ;
+    background-color: #00252E;
+}
+.iz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:578px ;
+    height:562px ;
+    border: solid   white;
+} 
+.iz img{
+    width: 239px;
+    height: 38px;
+} .contenido{
+    width: 378px;
+    height: 196px;
+    
+}.ubicacion{
+    display: flex;
+    align-items: center;
+    width: 391px;
+    height: 98px;
+   
+}
+
+.imagen img{
+    width: 12px;
+    height: 18px;
+}
+.imagen{
+    margin: 0%;
+    display: flex;
+   justify-content: center;
+   margin: 0px;
+    width: 60px;
+    height: 98;
+    
+}.letra{
+    display: flex;
+    width: 324px;
+    height: 73px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  
+}.telefono{
+    display: flex;
+    width: 388px;
+    height: 36px;
+}
+.email{
+    display: flex;
+    width: 388px;
+    height: 36px;
+}
+.mitad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+    width: 211px;
+    height: 582px;
+    border: solid red;
+    color: white;
+}
+
+
