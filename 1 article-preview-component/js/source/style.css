@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 97vh;
+    background-color: #EDF2F8;
+    font-family: 'Manrope', sans-serif;
+}.contenedor{
+    display: flex;
+    width: 731px;
+    height: 281px;
+    background-color: white;
+}
+.imagen{
+    width: 285px;
+    height: 281px;
+    background-image: url(./images/drawers.jpg);
+    background-size: cover;
+}
+.contenedort{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 446px;
+    height: 276px;
+
+}
+.texto{
+    width: 352px;
+    height: 84px;
+    font-size: 21px;
+    color: #565D6D;
+    font-weight: bold;
+}
+.texto2{
+    width: 355px;
+    height: 63px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #565D6D;
+}
+@media screen and (max-width: 600px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        width: 329px;
+        height: 510px;
+     
+    }
+    .imagen{
+        width: 329px;
+        height: 200px;
+    }
+    .contenedort{
+        width: 329px;
+        height: 312px;
+    }
+    .texto{
+        width: 272px;
+        height: 84px;
+        font-size: 18px;
+        color: #565D6D;
+        font-weight: bold;
+    }
+    .texto2{
+        width: 280px;
+        height: 109px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #565D6D;
+}
+

@@ -1,0 +1,41 @@
+
+.cuadrado{
+    width: 400px;
+    height: 400px;
+   background-color: rgb(240, 216, 0);
+}
+.prueba2{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+   
+}
+.prueba3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.prueba4{
+    width: 50px;
+    height: 50px;
+    background-color: seagreen;
+}
+.prueba5{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 255, 85);
+}
+.prueba6{
+    width:80px;
+    height: 50;
+    background-color: red;
+}
+.prueba7{
+    width: 100px;
+    height: 50px;
+    background-color: purple;
+}
