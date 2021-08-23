@@ -11,6 +11,7 @@ body{
     width: 731px;
     height: 281px;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .imagen{
     width: 285px;
@@ -25,14 +26,13 @@ body{
     align-items: center;
     width: 446px;
     height: 276px;
-
 }
 .texto{
     width: 352px;
     height: 84px;
     font-size: 21px;
     color: #565D6D;
-    font-weight: bold;
+    font-weight: 800;
 }
 .texto2{
     width: 355px;
@@ -41,12 +41,65 @@ body{
     font-weight: 400;
     color: #565D6D;
 }
+.barrainf{
+    display: flex;
+    width: 383px;
+    height: 69px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.connombre{
+    display: flex;
+    flex-direction: column;
+    width: 133px;
+    height: 69px;
+    margin-left: 16px;
+}
+.michelle{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #565D6D;
+}
+.compartir {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    top: 10px;
+    left: 50px;
+    background-repeat: no-repeat;
+}
+#botonc{
+    position: relative;
+    top: -10px;
+    left: 140px;
+}
+
+.compartir img{
+    position: relative;
+   top: -80px;
+    left: 10px;
+    width: 250px;
+    height: 67px;
+    display: none;
+}
+
+.fecha{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: lighter;
+}
 @media screen and (max-width: 600px) {
     .contenedor{
         display: flex;
         flex-direction: column;
         width: 329px;
         height: 510px;
+        border-radius: 8px;
     }
     .imagen{
         width: 329px;
@@ -57,7 +110,7 @@ body{
         height: 312px;
     }
     .texto{
-        width: 272px;
+        width: 291px;
         height: 84px;
         font-size: 18px;
         color: #565D6D;
@@ -69,5 +122,36 @@ body{
         font-size: 15px;
         font-weight: 400;
         color: #565D6D;
-}
+    }
+    .barrainf{
+        margin-top: 20px;
+        width: 335px;
+        height: 69px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-left: 20px;
+    }
+    #botonc{
+        left: 70px;
+    }
+    .compartir{
+        display: none;
+        top: 50px;
+        left: 50px;
+    }
+    .redes2{ 
+        position: relative;
+        width: 328px;
+        height:65px ;
+        top: 50px;
+        height: 50px;
+    }
+  
+  
+    
 
+}
+    
