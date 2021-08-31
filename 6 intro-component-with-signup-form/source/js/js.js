@@ -143,7 +143,7 @@ main.append(derecha);
 form.append(by);
 
 
-/*guada el formulario dentro dentro de la variable formid */
+/*guada el formulario dentro  de la variable formid */
 let formid = document.getElementById("form");
 let tinputs = document.querySelectorAll("#form input");
 
