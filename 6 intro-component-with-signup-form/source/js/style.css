@@ -74,9 +74,37 @@ form{
     padding-left: 20px;   
 }
 
+.conterror{
+    position: relative;
+
+}
+.imagen{
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 15px;
+    opacity: 0;
+}
+.validar_incorrecto .imagen{
+    opacity: 1;
+   
+}
+.validar_incorrecto .msg{
+    display: block;
+}
+    
+
+.msg{
+    font-size: 9px;
+    color: red;
+    float: right;
+    display: none;
+}
+
 :focus{
     outline:none;
 }
+
 button{
     width: 457px;
     height: 57px;
