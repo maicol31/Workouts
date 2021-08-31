@@ -1,0 +1,223 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    background-color: #c5e4e7;
+    justify-content: center;
+    margin-top: 50%;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 926px;
+    height: 487px;
+    background-color: white;
+    border-radius: 8px;
+    font-family: "Space Mono", monospace;
+  }
+  .izquierda {
+    display: flex;
+    flex-direction: column;
+    width: 462px;
+    height: 487px;
+  }
+  .derecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 464px;
+    height: 487px;
+  }
+  .superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 462px;
+    height: 169px;
+  }
+  .bill {
+    direction: rtl;
+    text-align: right;
+    width: 376px;
+    height: 47px;
+    border: none;
+    background-color: #eef3f5;
+  }
+  .bill::placeholder {
+    text-align: left;
+  }
+  
+  .textbill {
+    display: flex;
+    align-items: center;
+    width: 376px;
+    height: 28px;
+  }
+  .texto {
+    color: #748081;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .mitad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 462px;
+    height: 178px;
+  }
+  .selectip {
+    display: flex;
+    align-items: center;
+    width: 376px;
+    height: 27px;
+  }
+  .textselect {
+    color: #748081;
+    margin: 0px;
+    font-weight: 700;
+  }
+  .contbotones1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 377px;
+    height: 178px;
+    margin: 0px;
+  }
+  button {
+    width: 117px;
+    height: 48px;
+    background-color: #265e62;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 20px;
+  }
+  .customer {
+    width: 117px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #f3f8fb;
+    border: none;
+    font-size: 20px;
+    font-family: "Space Mono", monospace;
+  }
+  .customer::placeholder {
+    text-align: center;
+  }
+  .customer:focus {
+    outline: none;
+  }
+  .bill:focus {
+    outline: none;
+    border: solid #63a89f;
+  }
+  .contenedorcolor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 413px;
+    height: 419px;
+    border-radius: 20px;
+    background-color: #00474b;
+  }
+  .inferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 461px;
+    height: 151px;
+  }
+  .inpersona {
+    direction: rtl;
+    text-align: right;
+    width: 376px;
+    height: 47px;
+    border: none;
+    background-color: #eef3f5;
+  }
+  .inpersona:focus {
+    outline: none;
+    border: solid #63a89f;
+  }
+  .inpersona::placeholder {
+    text-align: left;
+  }
+  .textperson {
+    width: 376px;
+    height: 28px;
+    font-family: "Space Mono", monospace;
+    color: #748081;
+    font-weight: bold;
+  }
+  .contenedortotal {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 368px;
+    height: 347px;
+  }
+  .contnumeros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 368px;
+    height: 153px;
+  }
+  .contboton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 368px;
+    height: 76px;
+  }
+  .reset {
+    width: 333px;
+    height: 49px;
+    background-color: #99d1e2;
+    color: #094643;
+    font-weight: bold;
+  }
+  .conTipAmount {
+    display: flex;
+    justify-content: space-between;
+    width: 347px;
+    height: 48px;
+  }
+  
+  button:hover {
+    background-color: #9fe8df;
+  }
+  .contntexto {
+    width: 110px;
+    height: 48px;
+  }
+  .textip {
+    width: 110px;
+    height: 24px;
+    color: white;
+    font-weight: bold;
+  }
+  .person {
+    width: 110px;
+    height: 24px;
+    color: grey;
+    font-weight: bold;
+  }
+  .numtip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 161px;
+    height: 48px;
+    font-size: 40px;
+    color: #31b2a5;
+    font-weight: bold;
+  }
+  
