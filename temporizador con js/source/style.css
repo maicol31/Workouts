@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #060D1F;
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 988px;
+    height: 603px;
+
+}
+.contreloj{
+    display: flex;
+    justify-content: space-around;
+    width: 988px;
+    height: 424px;
+    
+}
+.min{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 344px;
+    height: 344px;
+    border-radius: 50%;
+    border: solid 8px white;
+    color: wheat;
+    font-size: 150px;
+}
+.dosp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 348px;
+    color:wheat;
+    font-size: 150px;   
+}
+.seg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 344px;
+    height: 344px;
+    border-radius: 50%;
+    border: solid 8px #2FFD44;
+    color: wheat;
+    font-size: 150px;
+}
+.contbotones{
+    display: flex;
+    justify-content: space-around;
+    width: 979px;
+    height: 100px;
+}
+button{
+    width: 210px;
+    height: 68px;
+    border-radius: 20px;
+    border: none;
+    background-color: #C1C7FF;
+    color: black;
+    font-size: 36px;
+}
+.customer{
+    display: flex;
+    text-align: center;
+    width: 210px;
+    height: 68px;
+    border-radius: 20px;
+    border: none;
+    background-color: #C1C7FF;
+    color: black;
+    font-size: 36px;
+}
+.customer:focus{
+    outline: none;
+}
+button:hover {
+    background-color: white;
+  }
