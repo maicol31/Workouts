@@ -1,6 +1,6 @@
 var jobList = [
   {
-    image: "../images/photosnap.svg",
+    image: "images/photosnap.svg",
     logoName: "photosnap",
     tags1: ["new!", " ", "featured"],
     title: "Senior Frontend Developer",
@@ -8,7 +8,7 @@ var jobList = [
     tags2: ["Frontend", "Senior", "HTML", "CSS", "JavaScript"],
   },
   {
-    image: "../images/manage.svg",
+    image: "images/manage.svg",
     logoName: "Manage",
     tags1: ["new!", " ", "featured"],
     title: "Senior Frontend Developer",
@@ -16,7 +16,7 @@ var jobList = [
     tags2: ["fullstack", "Midweight", "Python", "CSS", "React"],
   },
   {
-    image: "../images/account.svg",
+    image: "images/account.svg",
     logoName: "Account",
     tags1: ["new!"],
     title: "Junior Frontenbd Developer",
@@ -24,7 +24,7 @@ var jobList = [
     tags2: ["Frontend", "Senior", "HTML", "CSS", "JavaScript"],
   },
   {
-    image: "../images/myhome.svg",
+    image: "images/myhome.svg",
     logoName: "MyHome",
     tags1: [],
     title: "Junior Frontenbd Developer",
@@ -32,7 +32,7 @@ var jobList = [
     tags2: ["Frontend", "Junior", "CSS", "JavaScript"],
   },
   {
-    image: "../images/loop-studios.svg",
+    image: "images/loop-studios.svg",
     logoName: "Loop Studios",
     tags1: [],
     title: "Junior Frontenbd Developer",
@@ -40,7 +40,7 @@ var jobList = [
     tags2: ["Fullstack", "Midweight", "JavaScript", "Sass", "Ruby"],
   },
   {
-    image: "../images/faceit.svg",
+    image: "images/faceit.svg",
     logoName: "FaceIt",
     tags1: [],
     title: "Junior Backend Developer",
@@ -48,7 +48,7 @@ var jobList = [
     tags2: ["Backend", "junior", "Ruby", "RoR"],
   },
   {
-    image: "../images/shortly.svg",
+    image: "images/shortly.svg",
     logoName: "Shortly",
     tags1: [],
     title: "Junior Frontend Developer",
@@ -56,7 +56,7 @@ var jobList = [
     tags2: ["Frontend", "Junior", "HTML", "Sass" ,"JavaScript"],
   },
   {
-    image: "../images/insure.svg",
+    image: "images/insure.svg",
     logoName: "Insure",
     tags1: [],
     title: "Junior Frontend Developer",
@@ -64,7 +64,7 @@ var jobList = [
     tags2: ["Frontend", "Junior", "Vue" ,"JavaScript", "Sass"],
   },
   {
-    image: "../images/eyecam-co.svg",
+    image: "images/eyecam-co.svg",
     logoName: "Eyecam Co.",
     tags1: [],
     title: "Full Stack Engineer",
@@ -72,7 +72,7 @@ var jobList = [
     tags2: ["Fullstack", "Midweight", "JavaScript", "Django", "Python"],
   },
   {
-    image: "../images/the-air-filter-company.svg",
+    image: "images/the-air-filter-company.svg",
     logoName: "The Ait Filter Company",
     tags1: [],
     title: "Front-end Dev",
