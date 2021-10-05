@@ -1,0 +1,194 @@
+body{
+ display: flex;
+
+ align-items: center;
+}
+.contenedor{    
+    width: 100%;
+    font-family:'Questrial', sans-serif;
+}
+.superior{
+    padding-left: 80px;
+    width: 100%;
+    height: 44px;
+    color: #007ACC;
+    font-size: 31px;
+}
+.abajo{
+    display: flex;
+    width: 100%;
+    height: 349px;
+    
+  
+}
+.izquierda{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+ 
+   
+}
+.derecha{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height:349px ;
+    
+}
+.contenedorform{
+
+    width: 504px;
+    height: 192px;
+}
+
+.contguardar{
+    width: 100%;
+    height: 70px;
+}
+button{
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 46px;
+    color: #8B5F5F;
+}
+#formulario{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 504px;
+    height: 340px;
+    left: 830px;
+    top: 350px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    
+}
+.contbotones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 312px;
+    height: 300px;
+    font-size: 21px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 45px;
+    background-color: #F5F5F5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+table{
+  
+    font-size: 15px;
+    width: 100%;
+    border: solid 0,1px #DDDDDD;
+    background-color: #DDDDDD;
+    border-radius: 7px;
+  
+}
+tr{
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+th, td{
+    height: 45px;
+    border: solid 1px #DDDDDD;
+    background-color: white;
+}
+.contbarra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 71px;
+}
+.btneditar{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-image: url(design/raphael_pensil.svg);
+}
+.btneliminar{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-image: url(design/clarity_trash-solid.svg);
+}
+.nuevo{
+    width: 10%;
+    height: 80%;
+    margin-left: 10%;
+    background-color: #007ACC;
+    color: white;
+}
+span{
+    width: 250px;
+    margin-left: 40%;
+}
+.contformulario{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+}
+input{
+
+    background-color: white;
+    border: solid #ECECEC;
+    border-radius: 10px;
+    margin-left: 15px;
+    width: 90%;
+    height: 34px;
+}
+label{
+    margin-left: 15px;
+}
+.barraazul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #007ACC;
+}
+span:nth-child(1){
+    font-size: 20px;
+  
+}
+span:nth-last-child(1){
+    margin: 0px;
+    color: white;
+    margin-left: 15px;
+}
+.guardar{
+    width: 20%;
+    background-color: #007ACC;
+    color: white;
+    margin-left: 380px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.ocultar{
+    display: none;
+}
+.mostrar{
+    display: flex !important;
+}
+
+

@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="atyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="superior">
+            CONFIGURACION DE RIESGOS
+        </div>
+        <div class="abajo">
+            <div class="izquierda">
+                <div class="contbotones">
+                    <a href="IMPACTO.HTML">
+                        <button>IMPACTO</button>
+                    </a>
+                    <a href="PROBABILIDADES.html">
+                        <button>PROBABILIDADES</button>
+                    </a>
+                    <a href="TIPODERIESGO.HTML">
+                        <button>TIPO DE RIESGO</button>
+                    </a>
+                    <a href="evaluacionR.html">
+                        <button>EVALUACION DE RIESGO</button>
+                    </a>
+                </div>
+
+                <div class="contformulario" id="body">
+                    <div class="ocultar">
+
+                        <form action="" id="formulario">
+                            <div class="barraazul">
+                                <span>PROBABILIDADES</span>
+                            </div>
+                            <label for="">codigo</label>
+                            <input type="number" class="codigo" id="codigo">
+                            
+                            <label for="">descripcion</label>
+                            <input type="text" class="descripcion" id="descripcion">
+                            
+                            <label for="">valor</label>
+                            <input type="number" class="valor-minimo" id="valor-minimo">
+                            
+                            
+                            
+                            
+                            
+                            <button class="guardar">guardar</button>
+                            
+                        </form>
+                    </div>
+               
+           
+            
+                </div>
+                
+            </div>
+            <div class="derecha">
+                <div class="contbarra">
+                    <div class="titulo">
+                        <span>PROBABILIDADES</span>
+                        <button class="nuevo" id="nuevo">Nuevo </button>
+                    </div>
+                </div>
+                <table>
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Descripcion</th>
+                        <th>Valor</th>
+                        
+                        <th>Accion</th>
+                    </tr>
+                    <tbody id="tbody">
+                        <tr>
+    
+                        </tr>
+                    </tbody>
+    
+                </table>
+    
+            </div>
+        </div>
+</div>
+
+    </div>
+
+
+    <script src="PROBABILIDADES.js"></script>
+</body>
+
+</html>
