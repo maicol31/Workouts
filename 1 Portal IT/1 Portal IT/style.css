@@ -1,0 +1,157 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1095px;
+    height: 665px;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.superior{
+    display: flex;
+    justify-content: center;
+    width: 1095px;
+    height: 47px;
+    
+}
+.contmitad{
+    display: flex;
+    flex-direction: row;
+    width: 1095px;
+    height: 513px;
+   
+}
+.continferior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1095px;
+    height: 90px;
+    background-color: #262A2E;
+    color: white;
+    font-size: 11px;
+}
+.izquierda{
+    display: flex;
+    justify-content: flex-end;
+    width: 538px;
+    height: 513px;
+ 
+}
+.izquierda img{
+    width: 519px;
+    height: 502px;
+}
+.derecha{
+    width: 557px;
+    height: 513px;
+   
+}
+.ayuda{
+    display: flex;
+    align-items: center;
+    width: 557px;
+    height: 68px;
+    color:#9B9A9A;
+    font-weight: 500;
+    font-size: 24px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 472px;
+    height: 177px;
+    
+}
+.form input {
+    width: 467px;
+    height: 29px;
+    border-radius: 5px;
+    border: none;
+    border: solid 1px #EFEFEF;
+    outline: none;
+}
+.ayuda,
+.form{
+    margin-left: 20px;
+}
+.conttexto{
+    display: flex;
+    flex-direction: column;
+    width: 557px;
+    height: 240px;
+    
+}
+.form input::placeholder{
+    padding: 10px;
+    font-weight: 500;
+    color:#9B9A9A;
+}
+.texto{
+    width: 472px;
+    height: 136px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #9B9A9A;
+    text-align: justify;
+    line-height: 12px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+bl{
+    color: #65A9FF;
+}
+
+.contbtn{
+    display: flex;
+    justify-content: flex-end;
+    width: 557px;
+    height: 92px;
+}
+
+.button{
+    border-radius: 50px;
+    width: 107px;
+    height: 28px;
+    background-color:#2281FF;
+    border: none;
+    margin-right: 60px;
+    color: white;
+}
+
+
+@media screen and (max-width: 1000px){
+
+  
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contmitad{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .continferior{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 140px;
+        position: relative;
+        top: 200px;
+        font-size: 9px;
+    }
+}
