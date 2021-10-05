@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="subir_estracto">Subir extracto bancario</div>
+            <div class="demo">DEMO SAS  NIT 85,133,458-9</div>
+
+                <div class="form">
+                    <div class="labels">
+                        <label class="lb gris" id="AA" for="">Archivo a Procesar</label>
+                        <label class="lb blanco" id="" for="">Archivo en ceros</label>
+                        <label class="lb gris" id="" for="">Mes</label>
+                        <label class="lb blanco" id="" for="">Banco</label>
+                        <label class="lb gris" id="" for="">Cuenta</label>
+                        <label class="lb blanco" id="" for="">Divisa Utilizada</label>
+                 
+                    </div><!--  -->
+
+                    <div class="contInputs"><!-- CONTENEDOR DERECHO -->
+                        <div class="contindividual inoputOcultar">
+                           <input type="file" class="file" id="file">
+                         
+                        </div><!-- contenedor individual -->
+                        <div class="contindividual" id="check">
+                            <div class="switch-container">
+                                <input type="checkbox" id="switch">
+                                <label for="switch" class="lbl"></label>
+                            </div>
+                        </div><!-- contenedor individual -->
+                        <div class="contindividual">
+                            <input class="mes medidas" type="date">
+                            
+                        </div><!-- contenedor individual -->
+                        <div class="contindividual">
+                            <select class="medidas blanco" name="" id="selectBan">
+                                <option <!-- disabled selected --> Seleccione Banco</option>
+                            </select>
+                        </div><!-- contenedor individual -->
+                        <div class="contindividual">
+                            <select class="medidas gris" name="" id="cuentas">
+                                <option disabled selected>Seleccione Cuenta</option>
+                            </select>
+                        </div><!-- contenedor individual -->
+                        <div class="contindividual">
+                            <select class="medidas blanco" name="" id="selectmon">
+                               <option disabled selected>Seleccione Moneda</option>
+                            </select>
+                        </div><!-- contenedor individual -->
+                    </div>
+                   
+                </div>
+                <div class="buton_fecha">
+                    <button>SUBIR ARCHIVO</button>
+                    <div class="hora">
+                        <span id="fechaA"></span>
+                    </div>
+                </div>
+        </div>
+        <script src="js.js" type="module"></script>
+    </body>
+
+</html>

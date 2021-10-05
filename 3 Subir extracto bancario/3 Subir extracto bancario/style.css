@@ -1,0 +1,200 @@
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+}
+.subir_estracto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 63px;
+    border-bottom:solid 1px black;
+    font-size: 38px;
+    color: #667788;
+}
+.demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 63px;
+    font-size: 24px;
+    color: #667788;
+}
+.form{
+    display: flex;
+    width: 620px;
+    height: 173px;
+    border: solid gainsboro;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.labels{
+    width: 277px;
+    height: 173px;
+    border-right: solid 1px #BBBBBB;
+}
+.contInputs{
+    width: 457px;
+    height: 173px;
+  
+}
+.lb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 28px;
+    border-bottom: solid 1px #BBBBBB;
+    font-size: 18px;
+}
+.gris{
+    background-color: #EEEEEE;
+}
+.contindividual{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 28px;
+    border-bottom: solid 1px #BBBBBB;
+}
+.contindividual button:nth-child(1){
+    background-color: #EEEEEE;
+    border-radius: 0px;
+    color: black;
+}    
+
+.NingunA{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 29px;
+    font-size: 18;
+}
+.medidas{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 28px;
+    font-size: 18;
+    background-color: #EEEEEE;
+    border:none;;
+}
+.blanco{
+    background-color: white;
+}
+.yyyy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 199px;
+    height: 36px;
+}
+.buton_fecha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    
+}
+button{
+    width: 199px;
+    height: 36px;
+    border-radius: 50px;
+    border:none;
+    background-color: #1483E9;
+    color: white;
+}
+.hora{
+    margin-top: 10px;
+}
+#selectBan{
+    outline: none;
+}
+#cuentas{
+    outline: none;
+}
+#selectmon{
+    outline: none;
+}
+.lbl{
+    display: inline-block;
+    width: 50px;
+    height: 21px;
+    background-color: #afbcc7;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: .2s;
+    left: 10px;
+}
+.lbl::after{
+    content: '';
+    display: block;
+    width: 15px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    transition: .2s;
+}
+
+#switch:checked + .lbl::after{
+ left: 33px;
+}
+#switch:checked + .lbl{
+    background-color: seagreen;
+}
+#switch{
+    display: none;
+}
+#check{
+    display: flex;
+    align-items: center;
+}
+.ocultarInput{
+    display: none;
+}
+.error{
+    border: solid 2px red;
+}
+.file{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .form{
+       width: 425px;
+    }
+    .contindividual{
+        width: 270px;
+    }
+
+    .lb{
+        width: 150px;
+    }
+    .labels{
+        width: 150;
+    }
+    button{
+        width: 120px;
+     
+    }
+}
