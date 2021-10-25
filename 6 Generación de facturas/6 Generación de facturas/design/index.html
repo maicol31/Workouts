@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="loader-container cargaO" >
+            <div class="loader"></div>
+            <div class="loader2"></div>
+        </div>
+        <div class="contenedor">                        <!-- contenedor total -->
+            <div class="superior">                      <!-- contenedor de titulo y barra buscar ordenes -->
+                <div class="titulo">                    <!-- titulo -->
+                    <span>Generación de  facturas</span>
+                    <img src="iconos facturas/iconos facturas/icono informacion.svg" alt="">
+                </div>
+                <div class="barrabuscarOrd">              <!-- Barra azul -->
+                    <span>Buscar órdenes de facturación</span>
+                </div>
+            </div>
+        
+                <div class="mitad"> <!-- contenedor total de los inputs y el boton -->
+                    <div class="contImputs">
+                        <div class="contInputsFechas"> <!-- Contenedor inputs de la fecha gris -->
+                            <div class="contFechaI"> <!-- Contenedor fecha inical -->
+                                <div class="logoFecha">
+                                    <img src="iconos facturas/iconos facturas/calendario.svg" alt="">
+                                </div>
+                                <div class="contenedorFechayInput ">
+                                    <div class="contSpanFechaI ocultarf">
+                                        <span>Fecha Inicial</span>
+                                    </div>
+                                    <input type="date" class="fechain" id="fechain">
+
+                                </div>
+                                
+                            </div>
+                            <div class="contFechaF ocultarf ">  <!-- Contenedor fecha FINAL -->
+                                <div class="logoFecha">
+                                    <img src="iconos facturas/iconos facturas/calendario.svg" alt="">
+                                </div>
+                                <div class="contenedorFechayInput ">
+                                    <div class="contSpanFechaF">
+                                        <span>Fecha final</span>
+                                    </div>
+                                    <input type="date" class="fechafin" id="fechafin">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="contenedorInputsAbajo">  <!-- Contenedor inputs de cliente moneda y el resto gris -->
+                            <div class="OCM">
+                                <div class="ordenF medidas">
+                                    <div class="logoFecha">
+                                        <img src="iconos facturas/iconos facturas//icono orden de facturacion.svg" alt="">
+                                    </div>
+                                    <div class="contenedorSpanyInput">
+                                        <div class="contspan">
+                                            <span>Orden de facturación</span>
+                                        </div>
+                                        <input type="text" placeholder="Numero de orden de facturación" id="facturacion" > 
+
+                                    </div>
+                                </div>
+                                <div class="cliente">
+                                    <div class="logoFecha">
+                                        <img src="iconos facturas/iconos facturas/icono cliente.svg" alt="">
+                                    </div>
+                                    <div class="contenedorSpanyInput">
+                                        <div class="contspan">
+                                            <span>Cliente</span>
+                                        </div>
+                                        <input type="text" placeholder="Buscar el cliente" id="cliente">
+                                    </div>
+                                </div>
+                                <div class="modelo">
+                                    <div class="logoFecha">
+                                        <img src="iconos facturas/iconos facturas/icono modelo de negocio.svg" alt="">
+                                    </div>
+                                    <div class="contenedorSpanyInput">
+                                        <div class="contspan">
+                                            <span>Modelo de negocio</span>
+                                        </div>
+                                        <select id="selectmodelo">
+                                            <option  disabled selected>Seleccione Modelo</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="moneda">
+                                <div class="logoFecha">
+                                    <img src="iconos facturas/iconos facturas/icono moneda.svg" alt="">
+                                </div>
+                                <div class="contenedorSpanyInput">
+                                    <div class="contspan">
+                                        <span>Moneda</span>
+                                    </div>     
+                                    <select name="" id="select">
+                                        <option disabled selected></option>
+                                      <link rel="stylesheet" href=>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+                    <link rel="stylesheet" href="iconos facturas/iconos facturas/icono filtrar.svg">
+                    </div>
+                    <div class="contBtnConsultar">
+                        <button class="consultar">
+                            <img src="iconos facturas/iconos facturas/icono consultar.svg" alt="">
+                            <span>consultar</span>
+                        </button>
+                    </div> 
+                </div>
+
+                <div class="inferior">
+
+                    <div class="barraordenesF">
+                        <span>Ordenes de facturacion</span>
+                    </div>
+                    <div class="contmano">
+                        <div class="conttabla">
+
+                            <table class="tabla">
+   
+                                <div class="mano">
+                                    <img src="iconos facturas/iconos facturas/icono mano fondo.svg" class="iconomano">
+                                    <span class="spanmano">Ingrese los filtros para consultar las órdenes de facturación</span>
+                                    
+                                </div>
+                                
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            <div class="contFlotante"></div>  
+        </div>
+       <script src="js.js" ></script>
+    </body>
+</html>
